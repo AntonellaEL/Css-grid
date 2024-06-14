@@ -15,7 +15,7 @@
 }
 
 .uno {
-  grid-column: 1 / 4; 
+  grid-column: 1 / 3; 
   grid-row: 1; 
   height: 200px;
   background-color: lightblue; 
