@@ -1,22 +1,11 @@
 .container {
    display:grid;
-   gap:24px;
+   gap:20px;
    grid-template-columns: repeat(6 150px);
    width:1024px;
 }
 .box{
   border: 1px solid black;
-}
-.im{
-  height: 200px;
- width: 100%;
- object-fit: cover;
-}
-.im2{
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-
 }
 
 .uno{
@@ -33,7 +22,6 @@
     grid-column:3/6; 
     grid-row:1; 
     height: 200px;
-
   }
   
   .tres{
@@ -91,5 +79,16 @@
     grid-column: 3/6;
     grid-row: 4;
     height: 200px;
+}
+.im{
+  height: 200px;
+ width: 100%;
+ object-fit: cover;
+}
+.im2{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 
